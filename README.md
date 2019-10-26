@@ -21,7 +21,8 @@ $detector->toPNG();
 $detector = new Face_Steg('detection.dat',5);
 $detector->face_detect('Estella_01.png');
 $detector->toStegPNG('secret message'); 
-// Encryption can be added before going into toStegPNG can easily Base64(AES(message,key)) and encode that base64 string.
+// Encryption can be added before going into toStegPNG 
+// can easily Base64(AES(message,key)) and encode that base64 string.
 ```
 ## face_decode.php - Facial Recognition and decode message from already encoded image on disk
 
