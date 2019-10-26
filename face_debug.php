@@ -11,5 +11,5 @@ header("Pragma: no-cache");
 
 $detector = new Face_Steg('detection.dat',5);
 $detector->face_detect('Estella_01.png');
-$detector->toPNG('secret message');
+$detector->toPNG();
 exit;
